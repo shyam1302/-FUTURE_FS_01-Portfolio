@@ -33,7 +33,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications,{" "}
                 </b>
               </i>
               and exploring new ways to bridge on-chain and off-chain systems.
