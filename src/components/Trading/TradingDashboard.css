@@ -1,0 +1,49 @@
+.trading-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trading-dashboard .card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.trading-dashboard .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  font-weight: 600;
+}
+
+.trading-dashboard .table th {
+  background-color: #f8f9fa;
+  border-top: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.trading-dashboard .table td {
+  vertical-align: middle;
+  font-size: 0.875rem;
+}
+
+.trading-dashboard .text-success {
+  color: #28a745 !important;
+  font-weight: 600;
+}
+
+.trading-dashboard .text-danger {
+  color: #dc3545 !important;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .trading-dashboard .table {
+    font-size: 0.75rem;
+  }
+
+  .trading-dashboard .table th,
+  .trading-dashboard .table td {
+    padding: 0.5rem;
+  }
+}
